@@ -31,5 +31,10 @@ I used chat gpt to understand why it was not working and it told me that the phy
 so the work around I made was creating a boolean variable in the `Player.ts` script and make it `true` when I needed to do the teleportation of the player, and inside the `update` function of the player i set the position.
 
 
+# Showcase
+
+
+https://github.com/user-attachments/assets/bde06424-3b6e-4156-82ef-cf4401a7aa5d
+
 
 
