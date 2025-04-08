@@ -1,3 +1,7 @@
+# Introduction
+
+I decided to make a platformer prototype to learn the engine. For the most part, it felt quite intuitive, since I’ve previously used TypeScript and have experience with game engines like Unity. However, there were still a few challenges I faced in the development.
+
 # Technical challenges
 
 ## Collision Detection
@@ -29,6 +33,10 @@ When the player hits the Button it gets teleported to defined position,
 at first I tried to do this in a `Button.ts` inside a `onBeginContact` method, but changing the position of the player from there did not work.
 I used chat gpt to understand why it was not working and it told me that the physics overrides the position if you do it inside of `onBeginContact`, 
 so the work around I made was creating a boolean variable in the `Player.ts` script and make it `true` when I needed to do the teleportation of the player, and inside the `update` function of the player i set the position.
+
+# Conclusion
+
+Getting started with the engine was quite smooth, especially since I had some experience with TypeScript and other game engines like Unity. That said, there were still a few parts that took me by surprise,like how collision callbacks need to be manually registered or how setting the position needs to be done in a specific way. These differences compared to Unity were a bit confusing at first, but by going through the documentation and experimenting on my own, I was able to find solutions and understand the engine’s workflow. Overall, it was a great learning experience that gave me a good starting point for future projects.
 
 
 # Showcase
