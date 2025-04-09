@@ -1,6 +1,6 @@
 # Introduction
 
-I decided to make a platformer prototype to learn the engine. For the most part, it felt quite intuitive, since I’ve previously used TypeScript and have experience with game engines like Unity. However, there were still a few challenges I faced in the development.
+I decided to make a platformer prototype for this challenge. Overall, thanks to my prior experience with TypeScript and Unity, learning the engine was intuitive. But still, I did encounter a some challenges during the development process.
 
 # Technical challenges
 
